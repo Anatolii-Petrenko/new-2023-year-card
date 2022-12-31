@@ -19,6 +19,14 @@ body {
   overflow: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:active {
+  flood-color: gold;
+}
+
 body {
   display: flex;
   flex-direction: column;
